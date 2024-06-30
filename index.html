@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="img/burger.png" />
+
+    <!-- external css links -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- externals css end -->
+
+    <title>DELICIOUS BITES</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        DELICIOUS BITES
+        <img src="img/burger.png" alt="burger" />
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#experince">Reviews</a></li>
+        <li><a href="#projects">Explore Foods</a></li>
+        <li>
+          <a href="#contact">
+            <div class="dropdown">
+              <button class="dropbtn">
+                Meals
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#breakfast">Breakfast</a>
+                <a href="#lunch">Lunch</a>
+                <a href="#dinner">Dinner</a>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- nav end -->
+
+    <nav id="hamburger-nav">
+      <div class="logo">
+        DELICIOUS BITES
+        <!-- <img src="img/burger.png" alt="" /> -->
+      </div>
+
+      <!-- humburger starts -->
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experince" onclick="toggleMenu()">Reviews</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Explore Foods</a></li>
+          <li>
+            <a href="#contact" onclick="toggleMenu()">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Meals
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#breakfast">Breakfast</a>
+                  <a href="#lunch">Lunch</a>
+                  <a href="#dinner">Dinner</a>
+                </div>
+              </div>
+            </a>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <!-- humburger over -->
+    <!-- navbar over -->
+
+    <!-- sec1 starts -->
+
+    <div class="sec1">
+      <div class="txt">
+        <h1 class="h1">Where Every Bite</h1>
+        <h2 class="h2">Is A Delight</h2>
+        <p class="p1">
+          Discover delectable cuisine and unforgettable movements
+        </p>
+
+        <p class="p2">In our welcoming, culinary haven.</p>
+
+        <div class="button-container">
+          <button class="btn1">Book A Table</button>
+          <button class="btn2" onclick="location.href='./#'">
+            Order Online
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- sec1 over -->
+
+    <!-- sec2 starts -->
+    
+
+
+
+    <!-- sec2 over -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
