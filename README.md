@@ -2,7 +2,7 @@
 
   <h2 align="center">delicious bites Website</h2>
 
-Cryptex is a fully responsive cryptocurrency website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+delicious bites Website is a fully responsive food  website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
 <a href="https://deliciousbite.netlify.app/"><strong>➥ Live Demo</strong></a>
 
